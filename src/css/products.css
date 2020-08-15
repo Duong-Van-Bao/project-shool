@@ -1,0 +1,182 @@
+.produt_button-sell{
+    margin-top: 19px;
+}
+.navbar-light .navbar-btn .button_product{
+    background: #ff9f1a;
+    padding: 1.2em 0.5em;
+    border: none;
+    text-transform: UPPERCASE;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease;
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4px;
+    width: 95px;
+}
+.navbar-brand{
+    margin-right: 3.4rem !important;
+}
+.navbar-light .navbar-btn .button_product:hover{
+    background: #b36800;
+    color: #fff;
+    text-decoration: none;
+}
+.btn_product{
+    min-width: 49px;
+    text-decoration: none;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color2);
+    background-color: var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6rem;
+    background: #ff9f1a;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-transform: none;
+    overflow: visible;
+}
+.btn_product:hover{
+    background: #b36800;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-icon{
+    color: #fff !important;
+}
+.number_product{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:#757575
+}
+.number_product-text{
+    color: #757575;
+    width: 133px;
+    text-transform: capitalize;
+    flex-shrink: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 21px;
+}
+.product-title{
+    font-weight: 500 !important;
+    font-size: 2.3rem;
+    line-height: 3.0rem;
+    text-indent: 45px;
+}
+.rating{
+    font-size: 1.4rem;
+}
+.home-product-item__sale-on {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 19px;
+    text-align: center;
+    background-color: rgb(232, 11, 36);
+    border: 2px;
+    border-radius:5px ;
+}
+.home-product-item__sale-on .home-product-item__sale-on-percent{
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.8rem;
+}
+.home-product-item-text{
+    margin-top: 2px;
+}
+.rating{
+    line-height: 23px;
+} 
+.home-product-item__price{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.home-product-item__price-old {
+    font-size: 1.6rem;
+    color: #666;
+    text-decoration: line-through;
+    margin: 6px 10px 0;
+}
+.home-product-item__price-current {
+    font-size: 1.9rem;
+    color: var(--text-color3);
+    margin-left: 10px;
+}
+.content_produt{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.content_produt-Deal{
+    color: #757575;
+    font-size: 21px;
+    padding-right: 87px;
+}
+.content_produt-sell{
+    color: #ee4d2d;
+    font-size: 16px;
+    border-radius: 2px;
+    background-color: rgba(255,87,34,.1);
+    padding: 3px 6px;
+    max-width: 450px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.plus{
+   width: 56px;
+   height: 27px;
+}
+.plus-button{
+    width: 28px;
+}
+.plus-button:hover{
+    background-color: rgb(170, 170, 170) !important;
+}
+.button_value:hover{
+    background-color: transparent;
+    border: 1px solid #757575;
+}
+.nav_link-text:hover{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: black;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.text-table-product{
+    width: 254px;
+    height: 35px;
+    line-height: 32px;
+    font-size: 1.7rem;
+    color: white;
+    background-color: #ee4d2d;
+    border-radius: 5px;
+    text-indent: 10px;
+}
